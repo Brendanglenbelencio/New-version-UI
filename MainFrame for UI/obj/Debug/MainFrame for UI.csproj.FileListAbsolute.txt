@@ -10,3 +10,5 @@ C:\Users\Rend\Desktop\Code outputs\OOP\UI\MainFrame for UI\obj\Debug\MainFrame f
 C:\Users\Rend\Desktop\Code outputs\OOP\UI\MainFrame for UI\obj\Debug\MainFrame for UI.pdb
 C:\Users\Rend\Desktop\Code outputs\OOP\UI\MainFrame for UI\obj\Debug\MainFrame_for_UI.HomeUserControl.resources
 C:\Users\Rend\Desktop\Code outputs\OOP\UI\MainFrame for UI\obj\Debug\MainFrame_for_UI.ProductsUserControl.resources
+C:\Users\Rend\Desktop\Code outputs\OOP\UI\MainFrame for UI\obj\Debug\MainFrame_for_UI.EventsUserControl.resources
+C:\Users\Rend\Desktop\Code outputs\OOP\UI\MainFrame for UI\obj\Debug\MainFrame_for_UI.ContactsUserControl.resources

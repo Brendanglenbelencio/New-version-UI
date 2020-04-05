@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.BlackMainPanel = new System.Windows.Forms.Panel();
+            this.Sidepanel = new System.Windows.Forms.Panel();
+            this.ContactsButton = new System.Windows.Forms.Button();
+            this.EventsButton = new System.Windows.Forms.Button();
+            this.ProductsButton = new System.Windows.Forms.Button();
+            this.HomeButton = new System.Windows.Forms.Button();
             this.LightGraySubPanel = new System.Windows.Forms.Panel();
             this.GraySubPanel = new System.Windows.Forms.Panel();
-            this.HomeButton = new System.Windows.Forms.Button();
-            this.ProductsButton = new System.Windows.Forms.Button();
-            this.EventsButton = new System.Windows.Forms.Button();
-            this.ContactsButton = new System.Windows.Forms.Button();
-            this.Sidepanel = new System.Windows.Forms.Panel();
             this.CloseButton = new System.Windows.Forms.Button();
             this.PanelContainer = new System.Windows.Forms.Panel();
             this.BlackMainPanel.SuspendLayout();
@@ -55,6 +55,74 @@
             this.BlackMainPanel.Size = new System.Drawing.Size(273, 720);
             this.BlackMainPanel.TabIndex = 0;
             // 
+            // Sidepanel
+            // 
+            this.Sidepanel.BackColor = System.Drawing.Color.White;
+            this.Sidepanel.Location = new System.Drawing.Point(0, 147);
+            this.Sidepanel.Name = "Sidepanel";
+            this.Sidepanel.Size = new System.Drawing.Size(28, 112);
+            this.Sidepanel.TabIndex = 3;
+            // 
+            // ContactsButton
+            // 
+            this.ContactsButton.FlatAppearance.BorderSize = 0;
+            this.ContactsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ContactsButton.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ContactsButton.ForeColor = System.Drawing.Color.White;
+            this.ContactsButton.Location = new System.Drawing.Point(43, 501);
+            this.ContactsButton.Name = "ContactsButton";
+            this.ContactsButton.Size = new System.Drawing.Size(230, 112);
+            this.ContactsButton.TabIndex = 3;
+            this.ContactsButton.Text = "Contacts";
+            this.ContactsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ContactsButton.UseVisualStyleBackColor = true;
+            this.ContactsButton.Click += new System.EventHandler(this.ContactsButton_Click);
+            // 
+            // EventsButton
+            // 
+            this.EventsButton.FlatAppearance.BorderSize = 0;
+            this.EventsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.EventsButton.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EventsButton.ForeColor = System.Drawing.Color.White;
+            this.EventsButton.Location = new System.Drawing.Point(43, 383);
+            this.EventsButton.Name = "EventsButton";
+            this.EventsButton.Size = new System.Drawing.Size(230, 112);
+            this.EventsButton.TabIndex = 2;
+            this.EventsButton.Text = "Events";
+            this.EventsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.EventsButton.UseVisualStyleBackColor = true;
+            this.EventsButton.Click += new System.EventHandler(this.EventsButton_Click);
+            // 
+            // ProductsButton
+            // 
+            this.ProductsButton.FlatAppearance.BorderSize = 0;
+            this.ProductsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ProductsButton.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ProductsButton.ForeColor = System.Drawing.Color.White;
+            this.ProductsButton.Location = new System.Drawing.Point(43, 265);
+            this.ProductsButton.Name = "ProductsButton";
+            this.ProductsButton.Size = new System.Drawing.Size(230, 112);
+            this.ProductsButton.TabIndex = 1;
+            this.ProductsButton.Text = "Products";
+            this.ProductsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ProductsButton.UseVisualStyleBackColor = true;
+            this.ProductsButton.Click += new System.EventHandler(this.ProductsButton_Click);
+            // 
+            // HomeButton
+            // 
+            this.HomeButton.FlatAppearance.BorderSize = 0;
+            this.HomeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.HomeButton.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HomeButton.ForeColor = System.Drawing.Color.White;
+            this.HomeButton.Location = new System.Drawing.Point(43, 147);
+            this.HomeButton.Name = "HomeButton";
+            this.HomeButton.Size = new System.Drawing.Size(230, 112);
+            this.HomeButton.TabIndex = 0;
+            this.HomeButton.Text = "Home";
+            this.HomeButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.HomeButton.UseVisualStyleBackColor = true;
+            this.HomeButton.Click += new System.EventHandler(this.HomeButton_Click);
+            // 
             // LightGraySubPanel
             // 
             this.LightGraySubPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(53)))), ((int)(((byte)(59)))));
@@ -72,71 +140,6 @@
             this.GraySubPanel.Name = "GraySubPanel";
             this.GraySubPanel.Size = new System.Drawing.Size(33, 720);
             this.GraySubPanel.TabIndex = 2;
-            // 
-            // HomeButton
-            // 
-            this.HomeButton.FlatAppearance.BorderSize = 0;
-            this.HomeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.HomeButton.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HomeButton.ForeColor = System.Drawing.Color.White;
-            this.HomeButton.Location = new System.Drawing.Point(43, 147);
-            this.HomeButton.Name = "HomeButton";
-            this.HomeButton.Size = new System.Drawing.Size(230, 112);
-            this.HomeButton.TabIndex = 0;
-            this.HomeButton.Text = "Home";
-            this.HomeButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.HomeButton.UseVisualStyleBackColor = true;
-            this.HomeButton.Click += new System.EventHandler(this.HomeButton_Click);
-            // 
-            // ProductsButton
-            // 
-            this.ProductsButton.FlatAppearance.BorderSize = 0;
-            this.ProductsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ProductsButton.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProductsButton.ForeColor = System.Drawing.Color.White;
-            this.ProductsButton.Location = new System.Drawing.Point(43, 265);
-            this.ProductsButton.Name = "ProductsButton";
-            this.ProductsButton.Size = new System.Drawing.Size(230, 112);
-            this.ProductsButton.TabIndex = 1;
-            this.ProductsButton.Text = "Products";
-            this.ProductsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.ProductsButton.UseVisualStyleBackColor = true;
-            // 
-            // EventsButton
-            // 
-            this.EventsButton.FlatAppearance.BorderSize = 0;
-            this.EventsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.EventsButton.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EventsButton.ForeColor = System.Drawing.Color.White;
-            this.EventsButton.Location = new System.Drawing.Point(43, 383);
-            this.EventsButton.Name = "EventsButton";
-            this.EventsButton.Size = new System.Drawing.Size(230, 112);
-            this.EventsButton.TabIndex = 2;
-            this.EventsButton.Text = "Events";
-            this.EventsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.EventsButton.UseVisualStyleBackColor = true;
-            // 
-            // ContactsButton
-            // 
-            this.ContactsButton.FlatAppearance.BorderSize = 0;
-            this.ContactsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ContactsButton.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ContactsButton.ForeColor = System.Drawing.Color.White;
-            this.ContactsButton.Location = new System.Drawing.Point(43, 501);
-            this.ContactsButton.Name = "ContactsButton";
-            this.ContactsButton.Size = new System.Drawing.Size(230, 112);
-            this.ContactsButton.TabIndex = 3;
-            this.ContactsButton.Text = "Contacts";
-            this.ContactsButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.ContactsButton.UseVisualStyleBackColor = true;
-            // 
-            // Sidepanel
-            // 
-            this.Sidepanel.BackColor = System.Drawing.Color.White;
-            this.Sidepanel.Location = new System.Drawing.Point(0, 147);
-            this.Sidepanel.Name = "Sidepanel";
-            this.Sidepanel.Size = new System.Drawing.Size(28, 112);
-            this.Sidepanel.TabIndex = 3;
             // 
             // CloseButton
             // 
